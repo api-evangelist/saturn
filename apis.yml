@@ -1,8 +1,28 @@
 aid: saturn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saturn.png
 name: Saturn
-description: Saturn is a company surfaced as a portfolio company of general-catalyst, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Saturn is a mobile calendar and scheduling app built for high school students,
+  designed around the complexities of the school day, built around your friends,
+  and kept truly real-time. Students import their class schedule, see what their
+  friends are doing, coordinate activities, and share their calendar socially.
+  The company positions itself as "the next generation calendar, enabling time
+  together for all." Saturn is a consumer iOS and Android application distributed
+  through the App Store and Google Play; it exposes no public developer API,
+  SDK, or documentation surface. Backed by General Catalyst and Insight Partners,
+  with notable individual investors including Jeff Bezos, Marc Benioff, and Dara
+  Khosrowshahi.
 url: https://raw.githubusercontent.com/api-evangelist/saturn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Calendar
+- Scheduling
+- Consumer
+- Mobile
+- Social
+- Education
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.joinsaturn.com/
+- type: Blog
+  url: https://www.joinsaturn.com/blog
+- type: Support
+  url: https://www.joinsaturn.com/contact
+- type: PrivacyPolicy
+  url: https://www.joinsaturn.com/privacy-policy
+- type: TermsOfService
+  url: https://www.joinsaturn.com/terms-of-use
+- type: DomainSecurity
+  url: security/saturn-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
